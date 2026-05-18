@@ -6,10 +6,10 @@ Objectif:
 Identifier les sujets les plus performants sur YouTube pour aider les TPE/PME à orienter leur stratégie de contenu.
 
 Pipeline:
-1- Extraction — Récupération de vidéos et métadonnées via l'API YouTube Data v3
-2- Transformation — Nettoyage et enrichissement des données en Python (pandas)
-3- Chargement — Ingestion dans AWS S3 (data lake partitionné)
-4- Analyse — Production d'insights business : taux d'engagement, sujets performants, tendances
+1- Extraction: Récupération de vidéos et métadonnées via l'API YouTube Data v3
+2- Transformation: Nettoyage et enrichissement des données en Python (pandas)
+3- Chargement: Ingestion dans AWS S3 (data lake partitionné)
+4- Analyse: Production d'insights business : taux d'engagement, sujets performants, tendances
 
 Stack technique
 Python pandas boto3 AWS S3 AWS Lambda CloudWatch YouTube API v3
