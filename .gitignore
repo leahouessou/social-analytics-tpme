@@ -1,0 +1,15 @@
+# Environnement Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+
+# Données locales (le data lake est sur S3)
+data/
+
+# Packages de déploiement Lambda
+*.zip
